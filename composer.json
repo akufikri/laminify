@@ -1,5 +1,5 @@
 {
-    "name": "vendor/laminify",
+    "name": "akufikri/laminify",
     "description": "A Laravel package for JS and CSS minification",
     "type": "library",
     "require": {
@@ -8,20 +8,29 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\Laminify\\": "src/"
+            "Akufikri\\Laminify\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\Laminify\\LaminifyServiceProvider"
+                "Akufikri\\Laminify\\LaminifyServiceProvider"
             ],
             "aliases": {
-                "Laminify": "Vendor\\Laminify\\Facades\\Laminify"
+                "Laminify": "Akufikri\\Laminify\\Facades\\Laminify"
             }
         }
     },
     "suggest": {
         "blade-components": "This package provides Blade components for wrapping and minifying JS and CSS."
-    }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akufikri",
+            "email": "codingwithfikri@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

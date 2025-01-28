@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\Laminify\Helpers;
+namespace Akufikri\Laminify\Helpers;
 
 class Minifier
 {

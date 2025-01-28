@@ -1,11 +1,11 @@
 <?php
 
-namespace Vendor\Laminify;
+namespace Akufikri\Laminify;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
-use Vendor\Laminify\View\Components\LaminifyCss;
-use Vendor\Laminify\View\Components\LaminifyJs;
+use Akufikri\Laminify\View\Components\LaminifyCss;
+use Akufikri\Laminify\View\Components\LaminifyJs;
 
 class LaminifyServiceProvider extends ServiceProvider
 {

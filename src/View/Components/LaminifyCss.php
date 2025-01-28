@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\Laminify\View\Components;
+namespace Akufikri\Laminify\View\Components;
 
 use Illuminate\View\Component;
-use Vendor\Laminify\Helpers\Minifier;
+use Akufikri\Laminify\Helpers\Minifier;
 
 class LaminifyCss extends Component
 {

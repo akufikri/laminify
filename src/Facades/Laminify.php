@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\Laminify\Facades;
+namespace Akufikri\Laminify\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
